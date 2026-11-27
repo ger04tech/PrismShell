@@ -1,0 +1,77 @@
+/*
+ * Fonts bundled only for the TerminalPreview, so every font can be previewed even when it is not
+ * installed on the PC. Nerd Fonts are the same letters plus icons; the preview draws its prompt
+ * arrows with CSS, so the base fonts are enough.
+ *
+ * Fontsource packages (OFL / Apache / MIT, see each package's LICENSE).
+ * Files in ./preview/: subsets (Latin + prompt symbols) of Meslo LGM Nerd Font (Apache 2.0),
+ * Hack Nerd Font (MIT + Bitstream Vera), Hasklug Nerd Font (OFL 1.1) and 0xProto (OFL 1.1).
+ * Licenses are next to the files.
+ */
+@import "@fontsource-variable/jetbrains-mono";
+@import "@fontsource-variable/fira-code";
+@import "@fontsource-variable/source-code-pro";
+@import "@fontsource-variable/victor-mono";
+@import "@fontsource-variable/geist-mono";
+@import "@fontsource-variable/roboto-mono";
+@import "@fontsource-variable/cascadia-code";
+@import "@fontsource-variable/cascadia-mono";
+@import "@fontsource/iosevka/400.css";
+@import "@fontsource/iosevka/700.css";
+@import "@fontsource/ubuntu-mono/400.css";
+@import "@fontsource/ubuntu-mono/700.css";
+@import "@fontsource/commit-mono/400.css";
+@import "@fontsource/commit-mono/700.css";
+@import "@fontsource/mononoki/400.css";
+@import "@fontsource/mononoki/700.css";
+@import "@fontsource/ibm-plex-mono/400.css";
+@import "@fontsource/ibm-plex-mono/700.css";
+
+@font-face {
+    font-family: "Preview Meslo";
+    src: url("./preview/meslo-regular.woff2") format("woff2");
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Preview Meslo";
+    src: url("./preview/meslo-bold.woff2") format("woff2");
+    font-weight: 700;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Preview Hack";
+    src: url("./preview/hack-regular.woff2") format("woff2");
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Preview Hack";
+    src: url("./preview/hack-bold.woff2") format("woff2");
+    font-weight: 700;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Preview Hasklug";
+    src: url("./preview/hasklug-regular.woff2") format("woff2");
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Preview Hasklug";
+    src: url("./preview/hasklug-bold.woff2") format("woff2");
+    font-weight: 700;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Preview 0xProto";
+    src: url("./preview/0xproto-regular.woff2") format("woff2");
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Preview 0xProto";
+    src: url("./preview/0xproto-bold.woff2") format("woff2");
+    font-weight: 700;
+    font-display: swap;
+}
