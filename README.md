@@ -14,9 +14,18 @@ Lo aplicas con un clic y siempre lo puedes deshacer.
 ![React 19](https://img.shields.io/badge/React-19-61DAFB?style=flat-square)
 ![Licencia MIT](https://img.shields.io/badge/licencia-MIT-8B5CF6?style=flat-square)
 
+### [Descargar para Windows](https://github.com/ger04tech/PrismShell/releases/latest)
+
 <img src="docs/screenshots/temas.png" alt="Galería de temas de PrismShell" width="860" />
 
 </div>
+
+## Instalar
+
+1. Ve a [Releases](https://github.com/ger04tech/PrismShell/releases/latest) y descarga `PrismShell_x.y.z_x64-setup.exe`.
+2. Ábrelo y sigue el instalador. No pide permisos de administrador.
+
+El instalador todavía no está firmado digitalmente, así que Windows puede mostrar el aviso "Windows protegió tu PC". Da clic en **Más información** y luego en **Ejecutar de todas formas**. Todo el código está en este repositorio.
 
 ## Por qué
 
